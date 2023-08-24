@@ -1,2 +1,2 @@
-team join @r[team=, limit=1] player4
+team join player4 @r[team=, limit=1]
 scoreboard players set p4 teamControl 1
