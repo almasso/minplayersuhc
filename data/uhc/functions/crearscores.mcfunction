@@ -34,7 +34,7 @@ team modify tGenEquipo suffix [{"text":" 20", "color":"red","bold":true},{"text"
 team join tGenEquipo `
 team join tGenEquipo .
 #Main scoreboard
-scoreboard objectives add mainScore dummy [{"text":"Minplayers", "color":"green","bold":"true"},{"text":" UHC","color":"gold","bold":"true"}]
+scoreboard objectives add mainScore dummy [{"text":"Minplayers", "color":"green","bold":true},{"text":" UHC","color":"gold","bold":true}]
 scoreboard players set ' mainScore 11
 scoreboard players set : mainScore 10
 scoreboard players set | mainScore 9
@@ -45,7 +45,7 @@ scoreboard players set . mainScore 5
 scoreboard players set , mainScore 4
 scoreboard objectives setdisplay sidebar mainScore
 #Blue scoreboard
-scoreboard objectives add blueScore dummy [{"text":"Minplayers", "color":"green","bold":"true"},{"text":" UHC","color":"gold","bold":"true"}]
+scoreboard objectives add blueScore dummy [{"text":"Minplayers", "color":"green","bold":true},{"text":" UHC","color":"gold","bold":true}]
 scoreboard players set ' blueScore 11
 scoreboard players set : blueScore 10
 scoreboard players set | blueScore 9
@@ -56,7 +56,7 @@ scoreboard players set . blueScore 5
 scoreboard players set , blueScore 4
 scoreboard objectives setdisplay sidebar.team.aqua blueScore
 #Yellow scoreboard
-scoreboard objectives add yellowScore dummy [{"text":"Minplayers", "color":"green","bold":"true"},{"text":" UHC","color":"gold","bold":"true"}]
+scoreboard objectives add yellowScore dummy [{"text":"Minplayers", "color":"green","bold":true},{"text":" UHC","color":"gold","bold":true}]
 scoreboard players set ' yellowScore 11
 scoreboard players set : yellowScore 10
 scoreboard players set | yellowScore 9
@@ -67,7 +67,7 @@ scoreboard players set . yellowScore 5
 scoreboard players set , yellowScore 4
 scoreboard objectives setdisplay sidebar.team.yellow yellowScore
 #Green scoreboard
-scoreboard objectives add greenScore dummy [{"text":"Minplayers", "color":"green","bold":"true"},{"text":" UHC","color":"gold","bold":"true"}]
+scoreboard objectives add greenScore dummy [{"text":"Minplayers", "color":"green","bold":true},{"text":" UHC","color":"gold","bold":true}]
 scoreboard players set ' greenScore 11
 scoreboard players set : greenScore 10
 scoreboard players set | greenScore 9
@@ -78,7 +78,7 @@ scoreboard players set . greenScore 5
 scoreboard players set , greenScore 4
 scoreboard objectives setdisplay sidebar.team.green greenScore
 #Pink scoreboard
-scoreboard objectives add pinkScore dummy [{"text":"Minplayers", "color":"green","bold":"true"},{"text":" UHC","color":"gold","bold":"true"}]
+scoreboard objectives add pinkScore dummy [{"text":"Minplayers", "color":"green","bold":true},{"text":" UHC","color":"gold","bold":true}]
 scoreboard players set ' pinkScore 11
 scoreboard players set : pinkScore 10
 scoreboard players set | pinkScore 9
