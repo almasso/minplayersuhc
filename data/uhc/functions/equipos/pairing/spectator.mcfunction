@@ -1,0 +1,1 @@
+team join @r[team=, limit=1] spectators

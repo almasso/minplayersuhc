@@ -1,5 +1,5 @@
 {
 	"values": [
-		"uhc:givezero", "uhc:tickgapple", "uhc:tickswift", "uhc:equipos/selectorequipo", "uhc:timer/tickcount", "uhc:timer/diositoperdoname"
+		"uhc:givezero", "uhc:tickgapple", "uhc:tickswift", "uhc:equipos/selectorequipo", "uhc:timer/tickcount", "uhc:timer/diositoperdoname", "uhc:timer/pairplayertoteam"
 	]
 }
