@@ -12,5 +12,5 @@ execute if score @s teamControl matches 6 run team modify player6 color aqua
 execute if score @s teamControl matches 7 run team modify player7 color aqua
 execute if score @s teamControl matches 8 run team modify player8 color aqua
 
-execute if score nadie eqAzul matches 2 run function uhc:equipos/azul/first_player
 execute if score nadie eqAzul matches 1 run function uhc:equipos/azul/second_player
+execute if score nadie eqAzul matches 2 run function uhc:equipos/azul/first_player
