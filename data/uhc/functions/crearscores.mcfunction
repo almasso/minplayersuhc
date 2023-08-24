@@ -108,3 +108,11 @@ team add player8
 scoreboard players set p8 teamControl 0
 scoreboard players set lookingForTeam teamControl 1
 team add spectators
+scoreboard objectives add eqAzul dummy
+scoreboard players set nadie eqAzul 2
+scoreboard objectives add eqVerde dummy
+scoreboard players set nadie eqVerde 2
+scoreboard objectives add eqAmarillo dummy
+scoreboard players set nadie eqAmarillo 2
+scoreboard objectives add eqRosa dummy
+scoreboard players set nadie eqRosa 2
