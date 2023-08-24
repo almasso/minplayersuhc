@@ -4,3 +4,6 @@ title @s subtitle [{"text":"Tu compañero es ","color":"green","bold":true,"ital
 
 title @a[scores={eqVerde=2}] title {"text":" "}
 title @a[scores={eqVerde=2}] subtitle [{"text":"Tu compañero es ","color":"green","bold":true,"italic":true},{"selector":"@a[scores={eqVerde=3}]","color":"green","bold":true}]
+
+scoreboard players operation @s greenScore = . greenScore
+scoreboard players reset . greenScore

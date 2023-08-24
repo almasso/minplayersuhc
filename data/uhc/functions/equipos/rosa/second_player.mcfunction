@@ -4,3 +4,6 @@ title @s subtitle [{"text":"Tu compañero es ","color":"light_purple","bold":tru
 
 title @a[scores={eqRosa=2}] title {"text":" "}
 title @a[scores={eqRosa=2}] subtitle [{"text":"Tu compañero es ","color":"light_purple","bold":true,"italic":true},{"selector":"@a[scores={eqRosa=3}]","color":"light_purple","bold":true}]
+
+scoreboard players operation @s pinkScore = . pinkScore
+scoreboard players reset . pinkScore
