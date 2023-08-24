@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "A partir de las 3h y 30min...",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "... todas las personas deben estar en un radio de 150 bloques de (0,0) en el Overworld",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

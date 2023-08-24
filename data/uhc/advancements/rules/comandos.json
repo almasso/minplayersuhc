@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Comandos de (0,0)",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No puedes subir ni acercarte a los comandos de (0,0)",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

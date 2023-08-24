@@ -1,0 +1,21 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+		"#": {
+		  "item": "minecraft:amethyst_block"
+		},
+		"R": {
+		  "item": "minecraft:ender_chest"
+		}
+  },
+  "result": {
+    "item": "minecraft:shulker_box",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Alea iacta est",
+            "color": "dark_purple",
+            "italic": true,
+            "bold": false
+        },
+        "description": {
+            "text": "Comienza la batalla",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcalea": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:main/root"
+}

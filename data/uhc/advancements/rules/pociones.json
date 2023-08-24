@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Sobre pociones",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No se permite ninguna poción de regeneración ni el crafteo de sopa misteriosa cuyo efecto sea regeneración ni ninguna poción de nivel II.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "tag": "{Potion:'minecraft:strong_regeneration'}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

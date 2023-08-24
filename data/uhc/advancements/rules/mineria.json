@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Sobre ayudas en minería",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No se puede usar ningún tipo de ayuda de minería, como el gamma o modificación de texturas vanilla",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

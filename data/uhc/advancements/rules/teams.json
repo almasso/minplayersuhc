@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Acerca de los equipos",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No se permite la colaboración directa ni indirecta de equipos ni la unión de ambos (crossteaming).",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

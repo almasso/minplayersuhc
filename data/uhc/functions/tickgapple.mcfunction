@@ -1,0 +1,1 @@
+execute as @r[nbt={Inventory:[{id:"minecraft:bee_spawn_egg"}]}] run function uhc:give_gapple

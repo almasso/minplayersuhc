@@ -1,0 +1,29 @@
+{
+	"parent": "uhc:main/alea_iacta_est",
+    "display": {
+        "title": {
+            "text": "0,0"
+        },
+        "description": {
+            "text": "Estás a 100 bloques de (0,0)"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "near": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+    "requirements": [
+        [
+            "near"
+        ]
+    ]
+}

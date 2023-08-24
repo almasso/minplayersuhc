@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Trampas en portales",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "Está prohibido hacer trampas en portales o campear los portales del Nether. Además, se respetarán a las personas laggeadas o con problemas de conexión",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

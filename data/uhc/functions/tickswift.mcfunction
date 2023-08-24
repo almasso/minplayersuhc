@@ -1,0 +1,1 @@
+execute as @r[nbt={Inventory:[{id:"minecraft:bat_spawn_egg"}]}] run function uhc:give_swift_sneak

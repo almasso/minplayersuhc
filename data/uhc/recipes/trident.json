@@ -1,0 +1,27 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQQ",
+    "DBD",
+    " T "
+  ],
+  "key": {
+		"Q": {
+		  "item": "minecraft:quartz"
+		},
+		"T": {
+		  "item": "minecraft:ghast_tear"
+		},
+		"B": {
+		  "item": "minecraft:blaze_rod"
+		},
+		"D": {
+		  "item": "minecraft:diamond"
+		}
+  },
+  "result": {
+    "item": "trident",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Sobre los mods permitidos",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "Solo se puede usar Optifine como mod externo",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

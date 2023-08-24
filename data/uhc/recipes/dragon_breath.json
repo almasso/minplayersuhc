@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+		{
+		  "item": "minecraft:phantom_membrane"
+		},
+		{
+		  "item": "minecraft:phantom_membrane"
+		},
+		{
+		  "item": "minecraft:potion"
+		}
+  ],
+  "result": {
+    "item": "minecraft:dragon_breath",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Límites del mapa",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No puedes salir de los límites del mapa (aunque técnicamente sea imposible)",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+		"#": {
+		  "item": "minecraft:redstone"
+		}
+  },
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 2
+  }
+}

@@ -1,0 +1,1 @@
+advancement grant @r[x=-100,y=-64,z=-100,dx=200,dy=320,dz=200] only uhc:main/be_at_center

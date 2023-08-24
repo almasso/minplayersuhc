@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Formas de minado",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "Está prohibido hacer stripmining, brenchmining o tipos similares o variaciones de minado por debajo de la altura y=32. Sí se permiten hacer escaleras, pokeholes y minar hacia sonidos en caso de escucharlos.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

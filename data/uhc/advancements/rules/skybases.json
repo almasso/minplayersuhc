@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Sobre skybases y underbases",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "A partir de las 3h y 30min no se pueden hacer skybases, underbases o similares en un radio de 150 bloques de (0,0), minutos antes y después de la hora mencionada (underbase se considera cualquier tipo de construcción o estructura creada o no por un jugador debajo de (0,0), con más de 5 bloques y en la cual un jugador cualquiera resida más de 1 minuto).",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:scaffolding"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

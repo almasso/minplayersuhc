@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Sobre los espectadores",
+            "color": "white",
+            "italic": false,
+            "bold": false
+        },
+        "description": {
+            "text": "No se puede tener ninguna relación entre espectadores y jugadores. Cuando un jugador muera este se convierte en espectador y está obligado a moverse del canal en el que está al de espectadores, a no ser que se pida por motivos de nerviosismo.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "uhcwalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "uhc:rules/root"
+}

@@ -1,0 +1,1 @@
+scoreboard players set Running Timer 1

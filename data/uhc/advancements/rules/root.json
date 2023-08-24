@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Reglas",
+            "color": "red",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Reglas de la partida",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_concrete_powder.png"
+    },
+    "criteria": {
+        "uhcrules": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
