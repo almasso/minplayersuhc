@@ -1,0 +1,1 @@
+function uhc:anims/mainscoreanim
